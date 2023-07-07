@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1400px;
+}
+@media (max-width: 768px) {
+  body {
+    height: 135em;
+  }
+}
+
+.content {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  font-family: "Nunito Sans";
+}
+.content hr {
+  color: rgb(255, 255, 255);
+}
+@media (max-width: 768px) {
+  .content {
+    width: 100%;
+  }
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 125px;
+}
+.header-content-icon {
+  width: 200px;
+}
+.header-content-icon p {
+  display: flex;
+  justify-content: center;
+  font-family: "Caesar Dressing";
+  font-weight: 400;
+  font-size: 56px;
+}
+@media (max-width: 768px) {
+  .header-content-icon p {
+    font-size: 45px;
+  }
+}
+.header-content-icon ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .header-content-icon ul {
+    display: none;
+  }
+}
+.header-content-icon ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+.navbar-content ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+@media (max-width: 768px) {
+  .navbar-content ul {
+    justify-content: space-evenly;
+  }
+}
+.navbar-content ul li {
+  list-style: none;
+  cursor: pointer;
+}
+.navbar-content ul li p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 768px) {
+  .navbar-content ul li p {
+    font-size: 13px;
+  }
+}
+
+.main-content {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .main-content {
+    height: 103em;
+  }
+}
+.main-content-images {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .main-content-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+}
+.main-content-images-games {
+  width: 300px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .main-content-images-games {
+    width: 90%;
+    border-radius: 10px;
+  }
+}
+.main-content-car {
+  width: 100%;
+  cursor: pointer;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .main-content-car {
+    display: none;
+  }
+}
+
+.aside-content {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .aside-content {
+    height: 100px;
+  }
+}
+.aside-content p {
+  padding-right: 10px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .aside-content p {
+    font-size: 13px;
+  }
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  height: 120px;
+}
+@media (max-width: 768px) {
+  .footer-content {
+    display: flex;
+    height: 100px;
+  }
+}
+.footer-content ul {
+  display: flex;
+  align-items: flex-end;
+  color: rgb(141, 141, 141);
+}
+@media (max-width: 768px) {
+  .footer-content ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100%;
+    width: 50%;
+    margin: 0 15px;
+    font-size: 12px;
+  }
+}
+.footer-content ul:nth-child(2) {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+@media (max-width: 768px) {
+  .footer-content ul:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+  }
+}
+.footer-content ul:nth-child(2) li {
+  cursor: pointer;
+}
+.footer-content ul li {
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */

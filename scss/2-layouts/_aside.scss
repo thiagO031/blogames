@@ -1,0 +1,22 @@
+.aside-content{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width:768px) {
+        height: 100px;
+        
+    }
+
+    p{
+        padding-right: 10px;
+        cursor: pointer;
+
+        @media (max-width:768px) {
+            font-size: 13px;
+            
+        }
+    }
+
+}

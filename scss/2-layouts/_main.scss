@@ -1,0 +1,53 @@
+.main-content{
+    // border: 2px solid black;
+    height: 900px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+    @media (max-width:768px) {
+        // justify-content: space-between;
+        // align-items: center;
+        // flex-direction: row;
+        height: 103em;
+    }
+
+    &-images{
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width:768px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            // border: 1px solid black;
+            height: 100%;
+        }
+
+        &-games{
+            width: 300px;
+            cursor: pointer;
+
+            @media (max-width:768px) {
+                width: 90%;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    &-car{
+        width: 100%;
+        cursor: pointer;
+
+        justify-content: space-between;
+        
+
+        @media (max-width:768px) {
+            display: none;
+        }
+    }
+}

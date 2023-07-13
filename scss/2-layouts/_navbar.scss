@@ -1,0 +1,37 @@
+.navbar-content{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    height: 100px;
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 500px;
+        // border: 1px solid black;
+
+        @media (max-width:768px) {
+            justify-content: space-evenly;
+        }
+
+        li{
+            list-style: none;
+            cursor: pointer;
+
+            p{
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+                @media (max-width:768px) {
+                    font-size: 13px;
+                    
+                }
+            }
+        }
+    }
+    
+    
+}
